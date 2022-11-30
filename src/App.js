@@ -1,8 +1,13 @@
 import './sass/main.scss';
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <div className="App">
+      <Navbar />
+      <Hero/>
+    </div>
   );
 }
 
